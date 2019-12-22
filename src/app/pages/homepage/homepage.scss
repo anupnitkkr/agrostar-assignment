@@ -1,0 +1,12 @@
+.homepage {
+  @extend .fullpage;
+  background: $grey;
+
+  &--deck {
+    margin: 0;
+    padding: $padding * 2;
+    &--item {
+      padding: 0 $padding * 2 $padding * 2 0;
+    }
+  }
+}
